@@ -1,4 +1,0 @@
-FROM openjdk:17
-WORKDIR /app
-COPY out/artifacts/SupermarketSystem_jar/SupermarketSystem.jar app.jar
-CMD ["java", "-jar", "app.jar"]
